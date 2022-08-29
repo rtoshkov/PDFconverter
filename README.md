@@ -1,2 +1,3 @@
 # PDFconverter
-Tool for converting Word files to PDFs
+
+Tool created for conversion of multiple word files [doc, docx] to PDFs
