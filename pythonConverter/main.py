@@ -3,10 +3,12 @@ import win32com.client
 import os
 import asyncio
 
+CURRENT_DIR = "D:\JS Projects\PDFconverter\pythonConverter"
 WORD_DIR = 'files'
-path = os.getcwd() + '\\' + WORD_DIR + '\\'
+path = CURRENT_DIR + '\\' + WORD_DIR + '\\'
 print(path)
-files = os.listdir(WORD_DIR)
+files = os.listdir(path)
+print(files)
 
 
 async def convert_doc_to_docx(file_name):
