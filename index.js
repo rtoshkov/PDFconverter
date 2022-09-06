@@ -2,6 +2,7 @@ const express = require('express');
 const pdfController = require('./server/controllers/pdfs.js');
 const cors = require('./server/middleware/cors.js');
 
+
 const app = express();
 app.use(cors());
 app.use('/pdfConverter', pdfController);
