@@ -107,6 +107,6 @@ dist
 .idea
 
 #Cedentials
-credentials.json
+credentials
 .credentials.json
 .env
